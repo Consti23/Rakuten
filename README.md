@@ -1,40 +1,39 @@
 # **Challenge_Rakuten_py**
 
-## Presentation et Installation
-Ce projet s’inscrit dans le challenge Rakuten France Multimodal Product Data Classification: Il s’agit de prédire le code type de produits (tel que défini dans le catalogue Rakuten France) à partir d’une description texte et d’une image.
+## Präsentation und Installation
+Dieses Projekt ist Teil der Herausforderung "Rakuten France Multimodal Product Data Classification". Ziel ist es, den Produkttyp-Code (wie er im Katalog von Rakuten France definiert ist) anhand einer Textbeschreibung und eines Bildes vorherzusagen.
 
-Rakuten France souhaite pouvoir catégoriser ses produits automatiquement grâce à la désignation, la description et les images des produits vendus sur son site.
+Rakuten France möchte in der Lage sein, seine Produkte automatisch anhand der Bezeichnung, Beschreibung und Bilder der auf seiner Website verkauften Produkte zu kategorisieren.
 
-Ce projet a été développé pendant notre formation Data scientist avec le centre de formation Datascientest (https://datascientest.com/)
+Dieses Projekt wurde im Rahmen unserer Data Scientist-Ausbildung mit dem Ausbildungszentrum Datascientest entwickelt. (https://datascientest.com/)
 
-Notre équipe de développement du projet était composée de:
+Unser Projektentwicklungsteam bestand aus:
   * Flavien SAUX ([GitHub](https://github.com/Flav63s) / [LinkedIn](https://www.linkedin.com/in/flavien-s-712596190/))
   * Chadi BOULOS ([GitHub](https://github.com/Chadiboulos) / [LinkedIn](https://www.linkedin.com/in/chadi-boulos-6b05aa2a/))
   * Constantin NZWESSA ([GitHub](https://github.com/Consti23) / [LinkedIn](https://www.linkedin.com/in/constantin-nzwessa-322121250/))
   * Michaël DEVAUX ([GitHub](https://github.com/MichaelD24) / [LinkedIn](https://www.linkedin.com/in/michaël-devaux-362760139/))
 
-## Déroulement du projet
-Le projet suivait un plan en plusieurs étapes :
+## Projektverlauf
+Das Projekt folgte einem mehrstufigen Plan :
 
-* Collecte, préparation des données, exploration primaire, analyses statistiques et visuelles.
-* Modélisation de différents algorithmes basiques de classification de texte comme, linear SVC, ramdom forest, Gradient Boost.
-* Modélisation d’algorithmes basiques de régression logistique pour la classification d'images.
-* Modélisation d'algorithmes de Deep Learning avec TensorFlow:
-  * Réseau de neurones convolutifs (CNN (Mobilenet - Lenet - Resnet50)) pour la classification d'images,
-  * Réseaux de neurones récurrents (RNN (LSTM - BERT)) pour la classification de texte.
-* Modèle de fusion, concatenation d'un modèle textuel (BERT) et d'un modèle image (Resnet50).
-* Evolutions possibles du modèle.
+* Datensammlung, -aufbereitung, erste Exploration, statistische und visuelle Analysen.
+* Modellierung verschiedener grundlegender Textklassifikationsalgorithmen wie Linear SVC, Random Forest, Gradient Boost.
+* Modellierung grundlegender logistischer Regressionsalgorithmen für die Bildklassifikation.
+* Modellierung von Deep-Learning-Algorithmen mit TensorFlow:
+  * Convolutional Neural Networks (CNN: Mobilenet, Lenet, Resnet50) zur Bildklassifikation,
+  * Recurrent Neural Networks (RNN: LSTM, BERT) zur Textklassifikation.
+* Fusionsmodell: Kombination eines Textmodells (BERT) und eines Bildmodells (Resnet50).
+* Mögliche Weiterentwicklungen des Modells.
   
 ## **README**
 
-Nous n'avons pas pu télécharger les données nécessaires sur GitHub, pour que vous puissiez refaire ce projet dans les mêmes conditions que nous.
-Ces dernières étaient trop volumineuses pour être acceuillies sur notre espace.
-Cependant, vous pouvez les télécharger sur le site [challengedata](https://challengedata.ens.fr/challenges/35).
-Après vous êtes enregistré, vous pourrez accéder aux 4 fichiers composants les données.
+Wir konnten die benötigten Daten nicht auf GitHub hochladen, damit Sie dieses Projekt unter den gleichen Bedingungen wie wir nachbilden können.
+Diese waren zu umfangreich, um in unserem Speicherplatz untergebracht zu werden. Sie können sie jedoch auf der Website herunterladen. [challengedata](https://challengedata.ens.fr/challenges/35).
+Nach der Registrierung können Sie auf die 4 Dateien zugreifen, die die Daten umfassen:
 * X_train_update.csv
 * X_test_update.csv
 * Y_train_CVw08PX.csv
-* Le dossier contenant toutes les images
+* Der Ordner, der alle Bilder enthält
 
 
 ## Streamlit App
